@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'tracking-portabilidade';
+
+  statusValueFromAPI: string;
+  statusLabels: string[] = ['Portando', 'Concluído'];
+
+  constructor(){
+    this.statusValueFromAPI = 'Portando';
+  }
 }

@@ -1,0 +1,19 @@
+<div class="container">
+    <div class="tracking-container">
+        <div class="tracking">
+            <h3>Rastreio de portabilidade</h3>
+            <div class="status-label-container">
+            <div class="status-label" *ngFor="let label of statusLabels">{{ label }}</div>
+            </div>
+            <div class="status-point-container">
+                <div *ngFor="let label of getStatusIndexes(); let index = index" class="status-point" [ngClass]="getStatusClass(index)"></div>
+            </div>
+            <div class="tracking-line">
+                <div class="active-line" [ngStyle]="{'width.%': getLinePercentage()}"></div>
+            </div>
+        </div>
+        <div class="cancel-link">
+            <a href="#" class="cancel-link-text">Cancelar portabilidade</a>
+        </div>
+    </div>
+</div>
