@@ -1,0 +1,12 @@
+Story: Rastrear portabilidade de Chave Pix
+
+Configuração do componente de rastreamento de portabilidade
+Exibição das etiquetas de status
+Exibição dos pontos de status
+Estilização dos pontos de status
+Estilização da linha de progresso
+Pintura da linha de progresso até o próximo status
+Lógica de cálculo do percentual da linha de progresso
+Manipulação do estado atual do status
+Integração do componente de rastreamento com dados da API
+Testes de unidade para o componente de rastreamento
